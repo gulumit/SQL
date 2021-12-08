@@ -9,7 +9,9 @@ SELECT Composer, name FROM tracks;
 SELECT * FROM tracks;
 
 SELECT Composer FROM tracks
-/*tekrarsızları bulmak için*/
+/*=====================================================
+                         DISTINCT
+======================================================*/
 SELECT DISTINCT Composer FROM tracks
 SELECT DISTINCT AlbumId,MediaTypeId FROM tracks
 
