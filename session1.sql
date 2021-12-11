@@ -21,7 +21,6 @@ SELECT DISTINCT AlbumId,MediaTypeId FROM tracks
 SELECT name FROM tracks WHERE Composer='Jimi Hendrix';
 
 /* invoices tablosundan total değeri 10dan büyük olan faturalar sorgula*/
-SELECT * 
+SELECT CustomerId, InvoiceDate, total 
 FROM invoices 
 WHERE total>10;
-
